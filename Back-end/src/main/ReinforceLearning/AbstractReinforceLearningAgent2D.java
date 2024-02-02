@@ -1,10 +1,10 @@
-package ReinforceLearning;
+package main.ReinforceLearning;
 
-import dao.QEntry;
-import dao.QTableDao;
-import dto.Connect4Dto;
-import dto.QTableDto;
-import target.Connect4;
+import main.dao.QEntry;
+
+import main.dto.Connect4Dto;
+import main.dto.QTableDto;
+import main.enviroment.Connect4;
 
 import java.util.*;
 

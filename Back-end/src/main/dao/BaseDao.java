@@ -1,4 +1,4 @@
-package dao;
+package main.dao;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

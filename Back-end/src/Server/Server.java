@@ -1,28 +1,24 @@
 package Server;
 
-import ReinforceLearning.ReinforceLearningAgentConnectFour;
-import dao.QTableDao;
-import dto.Connect4Dto;
-import dto.QTableDto;
-import handler.BaseHandler;
-import handler.HandlerFactory;
-import handler.StatusCodes;
+import main.ReinforceLearning.ReinforceLearningAgentConnectFour;
+import main.dto.Connect4Dto;
+import main.dto.QTableDto;
+import main.handler.BaseHandler;
+import main.handler.HandlerFactory;
+import main.handler.StatusCodes;
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Scanner;
 
-import request.CustomParser;
-import request.ParsedRequest;
-import response.CustomHttpResponse;
-import response.HttpResponseBuilder;
-import target.Connect4;
+import java.util.Calendar;
+
+import main.request.CustomParser;
+import main.request.ParsedRequest;
+import main.response.HttpResponseBuilder;
+import main.enviroment.Connect4;
 
 public class Server {
 

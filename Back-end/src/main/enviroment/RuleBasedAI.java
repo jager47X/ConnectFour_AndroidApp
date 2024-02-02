@@ -1,6 +1,5 @@
-package target;
+package main.enviroment;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class RuleBasedAI extends Connect4{

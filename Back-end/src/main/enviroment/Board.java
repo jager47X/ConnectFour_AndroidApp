@@ -1,4 +1,4 @@
-package target;
+package main.enviroment;
 
 public class Board {
 

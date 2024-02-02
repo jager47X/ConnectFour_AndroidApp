@@ -1,9 +1,9 @@
-package ReinforceLearning;
+package main.ReinforceLearning;
 
 
 
-import dto.Connect4Dto;
-import dto.QTableDto;
+import main.dto.Connect4Dto;
+import main.dto.QTableDto;
 
 
  public class  ReinforceLearningAgentConnectFour extends AbstractReinforceLearningAgent2D {

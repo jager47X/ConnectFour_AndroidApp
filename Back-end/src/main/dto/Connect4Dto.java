@@ -1,6 +1,6 @@
-package dto;
+package main.dto;
 
-import target.Connect4;
+import main.enviroment.Connect4;
 
 import java.util.List;
 

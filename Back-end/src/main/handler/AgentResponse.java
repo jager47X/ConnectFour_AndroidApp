@@ -1,13 +1,12 @@
-package handler;
+package main.handler;
 
-import ReinforceLearning.ReinforceLearningAgentConnectFour;
+import main.ReinforceLearning.ReinforceLearningAgentConnectFour;
 import com.google.gson.JsonSyntaxException;
-import dao.QTableDao;
-import dto.Connect4Dto;
-import dto.QTableDto;
-import request.ParsedRequest;
-import response.HttpResponseBuilder;
-import response.RestApiAppResponse;
+import main.dto.Connect4Dto;
+import main.dto.QTableDto;
+import main.request.ParsedRequest;
+import main.response.HttpResponseBuilder;
+import main.response.RestApiAppResponse;
 
 public class AgentResponse implements BaseHandler {
     private final ReinforceLearningAgentConnectFour agent;

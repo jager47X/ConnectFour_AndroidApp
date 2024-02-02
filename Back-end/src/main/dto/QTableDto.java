@@ -1,9 +1,8 @@
-package dto;
+package main.dto;
 
-import dao.BaseDao;
-import dao.QEntry;
-import dao.QTableDao;
-import target.Connect4;
+import main.dao.BaseDao;
+import main.dao.QEntry;
+import main.dao.QTableDao;
 
 
 import java.util.*;

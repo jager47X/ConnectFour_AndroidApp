@@ -1,4 +1,4 @@
-package handler;
+package main.handler;
 
 public class StatusCodes {
   public static final String UNAUTHORIZED = "401 Unauthorized";

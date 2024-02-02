@@ -1,10 +1,10 @@
-package dao;
+package main.dao;
 
 
 public class CSV {
 
     private String fileName;
-    private static final String path = ".\\Data\\";
+    private static final String path =".\\Data\\" ;
 
     public CSV(String fileName) {
         this.fileName = fileName;

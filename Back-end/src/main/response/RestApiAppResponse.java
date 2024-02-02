@@ -1,7 +1,7 @@
-package response;
+package main.response;
 
-import dto.BaseDto;
-import dto.Connect4Dto;
+import main.dto.BaseDto;
+import main.dto.Connect4Dto;
 
 import java.util.List;
 

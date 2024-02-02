@@ -1,8 +1,8 @@
-package dto;
+package main.dto;
 
 
-import target.Board;
-import target.Connect4;
+import main.enviroment.Board;
+import main.enviroment.Connect4;
 
 import java.util.ArrayList;
 import java.util.List;

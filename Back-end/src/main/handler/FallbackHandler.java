@@ -1,7 +1,7 @@
-package handler;
+package main.handler;
 
-import request.ParsedRequest;
-import response.HttpResponseBuilder;
+import main.request.ParsedRequest;
+import main.response.HttpResponseBuilder;
 
 public class FallbackHandler implements BaseHandler {
 

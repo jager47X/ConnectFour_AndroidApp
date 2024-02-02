@@ -1,7 +1,7 @@
-package handler;
+package main.handler;
 
-import ReinforceLearning.ReinforceLearningAgentConnectFour;
-import request.ParsedRequest;
+import main.ReinforceLearning.ReinforceLearningAgentConnectFour;
+import main.request.ParsedRequest;
 
 public class HandlerFactory {
   // routes based on the path. Add your custom handlers here

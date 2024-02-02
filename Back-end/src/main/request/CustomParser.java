@@ -1,8 +1,7 @@
-package request;
+package main.request;
 
 public class CustomParser {
-    public CustomParser() {
-    }
+
 
     public static ParsedRequest parse(String request) {
         String[] lines = request.split("(\r\n|\r|\n)");
