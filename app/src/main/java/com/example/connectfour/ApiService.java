@@ -1,16 +1,20 @@
-package com.example.connectfour;
+ackage com.example.connectfour;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 
-import java.util.List;
-
 public interface ApiService {
-    @GET("get-connect4-data")
-    Call<List<Connect4Dto>> getData();
+    @GET("get")
+    Call<GameStatus> getGameStatus();
 
-    @POST("post-connect4-data")
-    Call<Connect4Dto> postData(@Body Connect4Dto requestData);
+    @POST("send")
+    Call<GameResponse> sendPlayerMove(@Body PlayerMove move);
+
+    @GET("aiMove")
+    Call<GameResponse> getAIMove();  // AI move endpoint
+
+    @POST("reset")
+    Call<GameStatus> sendReset();  // Reset game endpoint
 }
